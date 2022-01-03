@@ -1,0 +1,228 @@
+﻿@using demo.Business_Layer.VO
+@model NrPortionWithMealListVO
+@{
+    ViewData["Title"] = "Delivery";
+}
+<body>
+<style>
+    /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 37px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 5px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.details-container4{
+  display: flex;
+  flex-direction: column;
+}
+
+.details-container2{
+  display: flex;
+  flex-direction: row;
+}
+
+.users-info-wrapper {
+  height: 152px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 97%;
+  box-shadow: 0px 5px 13px #0000001A;
+  border-radius: 10px;
+  opacity: 1;
+  padding-left: 3%;
+}
+
+.meal-name{
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.ingredient{
+  font-size: 17.5px;
+  padding-left: 5%;
+}
+
+.price{
+  font-size: 20px;
+}
+
+.image{
+  width:100px;
+  height:100px;
+  box-shadow: 0px 5px 13px #0000001A;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.details-container1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.details-container4{
+  display: flex;
+  align-items: normal;
+  justify-content: right;
+}
+
+.detail-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+body {
+  position: absolute;
+  left: 0%;
+  text-align: center;
+}
+
+/*apply css properties to container class*/
+
+.container {
+  directiony-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  flex-direction: row;
+}
+
+/*apply css properties to button tag*/
+
+buttons {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  background-color: green;
+  color: honeydew;
+}
+
+/*apply hover effect to button tag*/
+
+button:hover {
+  background-color: greenyellow;
+  color: grey;
+}
+
+/*apply css properties to h2 tag*/
+
+h2 {
+  color: black;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+</style>
+  
+   
+
+<form action="SaveDelivery" method="post"> 
+@foreach (var item in Model.list)
+{
+    <ng-container>
+      <div class="users-info-wrapper">
+        <div class="details-container1">
+          <div class="details-container2">
+            <div>
+              <img [src]="meal.image" alt="" class="image">
+            </div>
+            <div class="details-container3">
+              <span class="meal-name">@Html.DisplayFor(modelItem => item.name)</span>
+              <span class="ingredient">Ingredients: @Html.DisplayFor(modelItem => item.ingredients)</span>
+            </div>
+          </div>
+
+          <div class="details-container3">
+            <span class="price">Price: @Html.DisplayFor(modelItem => item.price) euro</span>
+            <input  name="mealIds" type="hidden" value="@Html.DisplayFor(modelItem => item.id)"/>
+            <div ="container">
+                <div class="details-container1"> 
+                    <input  name="numberP" type="number" min="0" value="0"/>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+}
+<div class="details-container4">
+      <label>Name: </label>
+      <input type="text" id="name" name="Cname"></div>
+    <br>
+<div class="details-container4">
+      <label>Address: </label>
+      <input type="text" id="address" name="Address"></div>
+    <br>
+<div class="details-container4">
+      <label>Phone: </label>
+      <input type="tel" id="PhoneNumber" name="PhoneNumber"></div>
+    <br>
+<div class="details-container4">
+      <label>Email: </label>
+      <input type="email" id="email" name="Email"></div>
+    <br>
+<input type="submit" value="Submit" />
+</form>
+</body>
+
+
+
+

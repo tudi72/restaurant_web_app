@@ -1,0 +1,87 @@
+﻿@using demo.Business_Layer.VO
+@using demo.Business_Layer.Manager
+@model IEnumerable<ReservationAndCustomerNameVO>
+
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<style>
+    .users-info-wrapper {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 97%;
+  box-shadow: 0px 5px 13px #0000001A;
+  border-radius: 10px;
+  opacity: 1;
+  padding-left: 3%;
+}
+
+.details-container1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-container2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.details-container3{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+.reservation-no{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.reservation-client{
+  font-size: 17.5px;
+}
+
+</style>
+
+<body>
+<h4> Reservations </h4>
+
+@foreach (var item in Model) {
+    <ng-container>
+  <div class="users-info-wrapper">
+      <div class="details-container3">
+          <span class="reservation-no">Order no. @Html.DisplayFor(modelItem => item.reservationID)</span>
+          @Html.DisplayFor(modelItem => item.name)
+          <span class="reservation-client">Number of person: @Html.DisplayFor(modelItem => item.nrPersons)</span>
+        </div>
+
+    <div class="status-container">
+        <div style="background-color: transparent"
+             class="user-ribbon-row">
+               @{switch(item.status){
+                case 1:
+                    <div> CONFIRMED </div>
+                break;  // Always break each case
+                case -1:
+                    <div> REJECTED </div>
+                    break;
+                case 0:
+                    <button><a asp-action="AcceptReservation" asp-route-id="@item.reservationID" style="text-decoration:none">Confirm</a></button>
+                    <button><a asp-action="DeclineReservation" asp-route-id="@item.reservationID" style="text-decoration:none">Reject</a></button>
+                    break;
+                }}
+            
+           
+        </div>
+
+    </div>
+
+  </div>
+</ng-container>   
+}
+    
+</body>

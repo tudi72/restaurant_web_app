@@ -1,0 +1,64 @@
+﻿@model demo.Business_Layer.VO.PersonAndCustomerVO
+
+
+@{
+    ViewData["Title"] = "Client";
+    var msg = TempData["Msg"] as string;
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <h2 class="alert-success">@msg</h2>
+}
+<style>
+    
+.client-name{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.client-address-email{
+  font-size: 20px;
+}
+
+.users-info-wrapper {
+  height: 125px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 97%;
+  box-shadow: 0px 5px 13px #0000001A;
+  border-radius: 10px;
+  opacity: 1;
+  padding-left: 3%;
+}
+
+.name {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 100%;
+    margin-bottom: -20px;
+    margin-top: 15px;
+}
+
+
+</style>
+
+<body>
+    <ng-container>
+  <div class="users-info-wrapper">
+    <div class="description">
+        <div class="name">
+        @Html.DisplayFor(model => model.person.name) 
+        </div>
+        <br />
+        @Html.DisplayFor(model => model.customer.email)
+        <br />
+        @Html.DisplayFor(model => model.customer.address)
+
+   
+       </div>
+  </div>
+</ng-container>
+    <button><a class="btn full_button" asp-action="createReservation" style="text-decoration:none">Create Reservation</a></button>
+    <button><a class="btn full_button" asp-action="showReservation" style="text-decoration:none">Show Reservation</a></button>
+    <button><a class="btn full_button" asp-action="Delivery" style="text-decoration:none">Create Delivery</a></button>
+     <button><a class="btn full_button" asp-action="showDelivery" style="text-decoration:none">Show Delivery</a></button>
+</body>

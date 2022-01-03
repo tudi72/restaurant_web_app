@@ -1,0 +1,320 @@
+﻿++Solution 'demo' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:demo.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++.editorconfig
+i:{786c5ac6-c32f-4c4b-b91a-3a535f4a11cf}:C:\Users\ALEXANDRA\source\repos\restaurant-\demo\.editorconfig
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\.editorconfig
+++demo
+i:{00000000-0000-0000-0000-000000000000}:demo
+++Connected Services 
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:>876
+++Dependencies
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:>875
+++Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:analyzers
+++Frameworks
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:frameworks
+++Packages
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:packages
+++Properties
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\properties\
+++launchSettings.json
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\properties\launchsettings.json
+++wwwroot
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\
+++Business Layer
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\
+++Manager
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\
+++BasketManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\basketmanager.cs
+++CustomerManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\customermanager.cs
+++MealManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\mealmanager.cs
+++OrderManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\ordermanager.cs
+++PersonManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\personmanager.cs
+++PortionManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\portionmanager.cs
+++ReservationManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\reservationmanager.cs
+++TableManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\tablemanager.cs
+++TableStatusManager.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\manager\tablestatusmanager.cs
+++VO
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\
+++NrPortionWithMealListVO.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\nrportionwithmeallistvo.cs
+++OrderAndCustomerAndMealListVO.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\orderandcustomerandmeallistvo.cs
+++OrderAndPersonAndCustomerVO.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\orderandpersonandcustomervo.cs
+++PersonAndCustomerVO.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\personandcustomervo.cs
+++ReservationAndCustomerNameVO.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\reservationandcustomernamevo.cs
+++ReservationAndMealListVO.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\business layer\vo\reservationandmeallistvo.cs
+++Connection
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\connection\
+++ConnectionFactory.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\connection\connectionfactory.cs
+++Controllers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\controllers\
+++HomeController.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\controllers\homecontroller.cs
+++Data Layer
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\
+++Dao
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\dao\
+++Dao.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\dao\dao.cs
+++GenericDao.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\dao\genericdao.cs
+++Models
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\
+++Basket.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\basket.cs
+++Customer.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\customer.cs
+++ErrorViewModel.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\errorviewmodel.cs
+++Meal.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\meal.cs
+++Order.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\order.cs
+++Person.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\person.cs
+++Portion.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\portion.cs
+++Reservation.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\reservation.cs
+++Table.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\table.cs
+++TableStatus.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\data layer\models\tablestatus.cs
+++Views
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\
+++Home
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\
+++admin.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\admin.cshtml
+++adminShowDeliveries.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\adminshowdeliveries.cshtml
+++adminShowReservations.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\adminshowreservations.cshtml
+++client.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\client.cshtml
+++createReservation.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\createreservation.cshtml
+++Delivery.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\delivery.cshtml
+++Index.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\index.cshtml
+++Payment.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\payment.cshtml
+++showDelivery.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\showdelivery.cshtml
+++showReservation.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\home\showreservation.cshtml
+++Shared
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\shared\
+++_Layout.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\_viewstart.cshtml
+++appsettings.json
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\appsettings.json
+++Program.cs
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\program.cs
+++No service dependencies discovered
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:>877
+++MessagePackAnalyzer
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\microsoft.netcore.app
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0)
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:>888
+++Npgsql (6.0.0)
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:>889
+++css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\css\
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\js\
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\
+++favicon.ico
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\favicon.ico
+++_Layout.cshtml.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\appsettings.development.json
+++site.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\css\site.css
+++site.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\js\site.js
+++bootstrap
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\
+++jquery
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery\
+++jquery-validation
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation-unobtrusive\
+++dist
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery\dist\
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery\license.txt
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{8251d402-0fd6-43df-8904-1f4bcc62abb6}:c:\users\alexandra\source\repos\restaurant-\demo\demo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map

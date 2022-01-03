@@ -1,0 +1,36 @@
+﻿ 
+
+
+@{
+    ViewData["Title"] = "Admin";
+}
+<style>
+    
+.client-name{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.client-address-email{
+  font-size: 20px;
+}
+
+.users-info-wrapper {
+  height: 125px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 97%;
+  box-shadow: 0px 5px 13px #0000001A;
+  border-radius: 10px;
+  opacity: 1;
+  padding-left: 3%;
+}
+
+</style>
+
+<h1>Hello, Admin</h1>
+<br>
+<body>
+    <button><a asp-action="adminShowReservations" style="text-decoration:none">Show Reservation</a></button>
+     <button><a asp-action="adminShowDeliveries" style="text-decoration:none">Show Delivery</a></button>
+</body>

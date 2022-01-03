@@ -1,0 +1,100 @@
+﻿@using demo.Business_Layer.VO
+@model IEnumerable<OrderAndPersonAndCustomerVO>
+@{
+    ViewData["Title"] = "Show Deliveries";
+}
+
+<h1>adminShowDeliveries</h1>
+
+<style>
+    .users-info-wrapper {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 97%;
+  box-shadow: 0px 5px 13px #0000001A;
+  border-radius: 10px;
+  opacity: 1;
+  padding-left: 3%;
+}
+
+.details-container1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-container2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.details-container3{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+.reservation-no{
+  font-size: 17.5px;
+}
+
+.reservation-client{
+  font-size: 17.5px;
+}
+.reservation-name{
+  font-size: 35px;
+  font-weight: bold;
+}
+.reservation-email{
+  font-size: 17.5px;
+}
+.reservation-phone{
+  font-size: 17.5px;
+}
+</style>
+
+<body>
+<h4> Reservations </h4>
+
+@foreach (var item in Model) {
+    <ng-container>
+  <div class="users-info-wrapper">
+      <div class="details-container3">
+          <span class="reservation-name">@Html.DisplayFor(modelItem => item.name )</span>
+          <span class="reservation-no">Delivery no. @Html.DisplayFor(modelItem => item.id)</span>
+          <span class="reservation-phone">@Html.DisplayFor(modelItem => item.phone )</span>
+          <span class="reservation-email">@Html.DisplayFor(modelItem => item.email )</span>
+          <span class="reservation-client">Preparation time : @Html.DisplayFor(modelItem => item.preparation)</span>
+        </div>
+
+    <div class="status-container">
+        <div style="background-color: transparent"
+             class="user-ribbon-row">
+               @{switch(item.status){
+                case "1":
+                    <div> CONFIRMED </div>
+                break;  // Always break each case
+                case "-1":
+                    <div> REJECTED </div>
+                    break;
+                case "0":
+                <form>
+                    <input type="number" name="prTime"/>
+                    <button><a asp-action="AcceptDelivery" asp-route-prTime=prTime asp-route-id="@item.id" style="text-decoration:none">Confirm</a></button>
+                    <button><a asp-action="DeclineDelivery" asp-route-id="@item.id" style="text-decoration:none">Reject</a></button>
+                </form>
+                    break;
+                }}
+            
+           
+        </div>
+
+    </div>
+
+  </div>
+</ng-container>   
+}
+    
+</body>

@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Drakkula";
+}
+
+<style type="text/css">
+
+@@font-face {
+    font-family: "Dancing Script";
+    src: url(DancingScript-VariableFont_wght.ttf) format("truetype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden; 
+  color: #555;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1000&h=500&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2016%2F06%2Fsteak-au-poivre-with-red-wine-pan-sauce-XL-RECIPE0418.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.title {
+    color: #eccc68;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 300%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 150%;/*autumatically adjusting its size from the html size*/
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: 1px solid #393939;
+    color: #fff;
+    transition: background-color 0.4s;
+    text-decoration: none;
+}
+
+.full_button {
+    background-color: #eccc68;
+    position:absolute;
+    right:32%;
+}
+
+.fade_button {
+    border: 1px solid #b1b1b1;
+    background-color: rgba(255, 255, 255, 0);
+    position:absolute;
+    right:0%;
+}
+
+.full_button:hover,
+.full_button:active {
+    background-color: #d4b85e;
+}
+
+.fade_button:hover,
+.fade_button:active {
+    background-color: #eccc68;
+}
+
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+    float: left;
+    margin-top: 20px;
+}
+
+
+</style>
+
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 class="title">Drakkula</h1>
+    <h3 class="subtitle">Our wine and steak restaurant</h3>
+    <button><a asp-action="client" style="text-decoration:none" class="btn full_button">Client</a></button>
+    <button><a asp-action="admin" style="text-decoration:none" class="btn fade_button">Admin</a></button>
+  </div>
+</div>
+
+</body>
